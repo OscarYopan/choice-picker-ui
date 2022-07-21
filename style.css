@@ -1,0 +1,70 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Default*/
+:root {
+  --cor1: #F25C93;
+  --cor2: #BF4B81;
+  --cor3: #010A26;
+  --cor4: #90A66F;
+  --cor5: #F2F2F2;
+  --white: white;
+  --black: black;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--cor3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h3 {
+  color: var(--white);
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 1.8rem;
+  letter-spacing: .3rem;
+  line-height: 3rem;
+}
+
+.container {
+  width: 50%;
+}
+
+textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 10rem;
+  font-family: inherit;
+  letter-spacing: .3rem;
+  padding: 1rem;
+  margin: 0 auto 2rem auto;  
+}
+
+.tag {
+  background-color: var(--cor2);
+  color: var(--white);
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  margin: 0 .5rem 1rem 0 ;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.tag.pick {
+  background-color: var(--cor4);
+}
