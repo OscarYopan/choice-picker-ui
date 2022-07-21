@@ -57,6 +57,8 @@ textarea {
 
 #tags {
   width: 95%;
+  display: flex;
+  justify-content: center;
 }
 
 .tag {
