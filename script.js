@@ -32,10 +32,34 @@ function createTags (input) {
   
   const interval = setInterval(() => {
     const randomTag = pickRandomTag()
+
+    highLightTag(randomTag)
+    setTimeout(() => {
+      unHighLightTag(randomTag)
+    }, 100);
   }, 100) // intervalo em 'ms'
+
+  setTimeout(() => {
+    clearInterval(interval)
+
+    setTimeout(() => {
+      const randomTag = pickRandomTag()
+
+      highLightTag(randomTag)
+    }, 100)
+
+  }, times * 100);
 }
 
 function pickRandomTag () {
   const tags = document.querySelectorAll('.tag')
   return tags[Math.floor(Math.random() * tags.length)]
+}
+
+function highLightTag (tag) {
+  tag.classList.add('pick')
+}
+
+function unHighLightTag (tag) {
+  tag.classList.remove('pick')
 }

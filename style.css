@@ -55,6 +55,10 @@ textarea {
   margin: 0 auto 2rem auto;  
 }
 
+#tags {
+  width: 95%;
+}
+
 .tag {
   background-color: var(--cor2);
   color: var(--white);
