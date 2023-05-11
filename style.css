@@ -12,8 +12,8 @@
   --cor3: #010A26;
   --cor4: #90A66F;
   --cor5: #F2F2F2;
-  --white: white;
-  --black: black;
+  --white: #ffffff;
+  --black: #000000;
 }
 
 html{
@@ -27,8 +27,8 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh; */
+  /* overflow: hidden; */
 }
 
 h1 {
@@ -86,4 +86,30 @@ textarea {
 
 .tag.pick {
   background-color: var(--cor4);
+}
+
+/* Options */
+
+.options {
+  background-color: var(--cor4);
+  padding: 2rem;
+  border: none;
+  border-radius: .5rem;
+  margin: 2rem 0;
+}
+
+.counter {
+  background-color: var(--cor4);
+  padding: 2rem;
+  border: none;
+  border-radius: .5rem;
+  margin: 2rem 0;
+}
+
+.result {
+  background-color: var(--cor4);
+  padding: 2rem;
+  border: none;
+  border-radius: .5rem;
+  margin: 2rem 0;
 }
