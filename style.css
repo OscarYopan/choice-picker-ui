@@ -38,21 +38,22 @@ h1 {
   margin-bottom: 2rem;
 }
 
-h3 {
-  color: var(--white);
-  text-align: center;
-  margin: 2rem auto;
-  font-size: 1.8rem;
-  line-height: 3rem;
-}
-
-.title h2 {
+h2 {
   color: var(--cor5);
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.title input {
+h5 {
+  color: var(--white);
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+
+input {
   border: none;
   width: 100%;
   font-family: inherit;
@@ -62,7 +63,7 @@ h3 {
 }
 
 .container {
-  width: 50%;
+  width: 60rem;
 }
 
 textarea {
@@ -72,7 +73,7 @@ textarea {
   height: 10rem;
   font-family: inherit;
   padding: 1rem;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 1rem auto;
   letter-spacing: .3rem;
 }
 
@@ -104,6 +105,10 @@ textarea {
   border: none;
   border-radius: .5rem;
   margin: 2rem 0;
+}
+
+.options input {
+  width: 5rem;
 }
 
 /* counter */
