@@ -63,5 +63,3 @@ function highLightTag(tag) {
 function unHighLightTag(tag) {
   tag.classList.remove('pick')
 }
-
-// *********  counter **************************************
