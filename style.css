@@ -173,6 +173,15 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center;
 }
 
+.counter h1 {
+  font-size: 6rem;
+}
+
+.counter h4 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
 .counter.hide {
   transform: translate(-50%, -50%) scale(0);
   animation: hide .2s ease-out;
