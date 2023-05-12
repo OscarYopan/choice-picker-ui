@@ -235,6 +235,7 @@ input[type=number]::-webkit-outer-spin-button {
   left: 50%;
   transform: translate(-50%, -50%) rotate(120deg);
   transform-origin: bottom center;
+  font-size: 2rem;
 }
 
 .nums span.in{
