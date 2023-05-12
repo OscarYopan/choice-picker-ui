@@ -63,7 +63,6 @@ input {
   font-family: inherit;
   padding: 1rem;
   letter-spacing: .3rem;
-  margin-bottom: 2rem;
 }
 
 button {
@@ -126,27 +125,10 @@ textarea {
 
 .options {
   background-color: var(--cor4);
-  padding: 2rem;
   border: none;
   border-radius: .5rem;
-  margin: 2rem 0;
-  width: 350px;
+  width: 100%;
   text-align: center;
-}
-
-.options h2 {
-  margin-bottom: 2rem;
-}
-
-.options ul {
-  margin-bottom: 2rem;
-}
-
-.options li {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .options input {
