@@ -28,6 +28,12 @@ function createTags(input) {
   })
 }
 
+const randomBtn = document.querySelector('#random')
+
+randomBtn.addEventListener('click', () => {
+  randomSelect()
+})
+
 function randomSelect() {
   const times = 30
 
