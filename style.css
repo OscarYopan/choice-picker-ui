@@ -67,7 +67,7 @@ input {
 }
 
 button {
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   background-color: var(--cor1);
   border: none;
   cursor: pointer;
@@ -150,6 +150,18 @@ input[type=number]::-webkit-outer-spin-button {
   opacity: 1;
 }
 
+/* btn-container */
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-container button {
+  width: 40%;
+}
 
 /* counter */
 
