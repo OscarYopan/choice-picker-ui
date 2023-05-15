@@ -1,7 +1,7 @@
 const tagsEl = document.querySelector('#tags')
 const textarea = document.querySelector('#textarea')
 
-textarea.focus() //Quando carrega a pagina o cursor vai direto
+// textarea.focus() //Quando carrega a pagina o cursor vai direto
 
 textarea.addEventListener('keyup', element => {
   createTags(element.target.value)
