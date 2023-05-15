@@ -69,3 +69,16 @@ function highLightTag(tag) {
 function unHighLightTag(tag) {
   tag.classList.remove('pick')
 }
+
+// Clear text
+
+const clearBtn = document.querySelector('#clear')
+
+clearBtn.addEventListener('click', () => {
+  console.log('Limpar Pressionado')
+  eraseText()
+})
+
+function eraseText() {
+  textarea.value = ''
+}
